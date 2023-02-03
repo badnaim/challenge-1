@@ -1,4 +1,10 @@
-
+.pag {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .buttons {
   width: 580px;
@@ -9,12 +15,8 @@
   border-top: 1px solid gray;
 }
 
-.pag {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.numbers {
+  background-color: bisque;
 }
 
 .active {
@@ -47,6 +49,7 @@
 }
 
 .inactive:hover {
+  cursor: pointer;
   line-height: 47px;
   border: none;
   border-bottom: 2px solid #ed1e2b;
